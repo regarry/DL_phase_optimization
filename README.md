@@ -3,6 +3,7 @@ Here we report that a joint-optimization continuously updates the phase mask and
 Paper reference (doi: https://doi.org/10.1101/2023.11.29.569329)
 ## Autofocus pipeline
 <img src="images/Fig1.png" width="630" height="534">  
+
 ## Required packages
 pytorch (>= 1.12), torchvision, matplotlib, numpy, random, skimage, scipy  
 
