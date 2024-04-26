@@ -7,7 +7,7 @@ Paper reference (doi: https://doi.org/10.1101/2023.11.29.569329)
 ## Required packages
 pytorch (>= 1.12), torchvision, matplotlib, numpy, random, skimage, scipy  
 
-## Function of scipts
+## Function of scripts
 
 **mask_learning.py**
  - main file for training model and mask optimization
