@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import torch
 import torch.nn as nn
 from torch.autograd import Function
@@ -8,7 +7,6 @@ import numpy as np
 from math import pi
 import torchvision
 import torch.fft
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 import os
 from data_utils import PhasesOnlineDataset
 import pickle

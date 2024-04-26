@@ -4,7 +4,7 @@ from scipy.interpolate import UnivariateSpline
 import numpy as np
 import pylab as pl
 import sys
-%matplotlib inline
+#%matplotlib inline
 def FWHM(path):
     #file_path = './results/model_fig2/gaussianprofile/'
     x = range(0,201)
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     d = 60
     img_small = img[x - d:x + d + 1,y - d:y + d + 1]
     skimage.io.imsave('./paperfigure_2_22_23/fig2/experiment_3/gau_test.tiff',img_small)
-    sys.exit()
+    
     
     # img = skimage.io.imread('./results/model_fig5/gau_-100um.tiff')
     # inten = sum(img) - min(sum(img)) 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     
     
     #gaussian = FWHM('./gaussian_folder/')
-    gaussian = FWHM('./3D_folder/gau/')
+    """gaussian = FWHM('./3D_folder/gau/')
     optimized = FWHM('./3D_folder/opt/')
     bessel = FWHM('./3D_folder/bessel/')
     gaussian_width = cal_beamwidth(gaussian)
@@ -161,7 +161,7 @@ if __name__ == '__main__':
     pl.plot(x,gau,'r',linewidth=3)
     pl.plot(x,opt,'g',linewidth=3)
     pl.axis('off')
-    pl.savefig('abcd1.png',bbox_inches='tight', pad_inches=0)
+    pl.savefig('abcd1.png',bbox_inches='tight', pad_inches=0)"""
     
     
     
